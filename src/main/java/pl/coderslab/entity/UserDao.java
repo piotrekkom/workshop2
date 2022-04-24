@@ -14,9 +14,9 @@ public class UserDao {
 
     public void delete(int id) {
         try (Connection conn = DbUtil.getConnection();
-             PreparedStatement preStmt = conn.prepareStatement(DELETE_USER_QUERY)) {
-            preStmt.setInt(1, id);
-            preStmt.executeUpdate();
+             PreparedStatement statement = conn.prepareStatement(DELETE_USER_QUERY)) {
+            statement.setInt(1, id);
+            statement.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -103,6 +103,5 @@ public class UserDao {
             return null;
         }
     }
-
 
 }

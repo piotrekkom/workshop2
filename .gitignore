@@ -17,3 +17,5 @@ _site/
 .idea/
 .eclipse
 /src/main/java/pl/coderslab/entity/testy/
+/test/
+/src/org/

@@ -7,16 +7,16 @@ public class MainDao {
 
 /////////////  CREATE NEW USER
 //        User newUser = new User();
-//        user.setUsername("baśka");
-//        user.setEmail("mialafajny@gmail.com");
-//        user.setPassword("biust");
+//        newUser.setUsername("Jerzy Brzęczek");
+//        newUser.setEmail("wuja@laczynaspilka.pl");
+//        newUser.setPassword("wujagol");
 //        userDao.create(newUser);
 
 /////////////  DELETE USER
 //        userDao.delete(4);
 
 /////////////  READ USER INFO
-//        System.out.println(userDao.read(3));
+//        System.out.println(userDao.read(7));
 
 /////////////  UPDATE
 //        User userToUpdate = userDao.read(5);
@@ -25,11 +25,11 @@ public class MainDao {
 //        userToUpdate.setPassword("trzasło");
 //        userDao.update(userToUpdate);
 
-/////////////  FIND ALL
-        User[] all = userDao.findAll();
-        for (User u : all) {
-            System.out.println(u);
-        }
+///////////////  FIND ALL
+//        User[] all = userDao.findAll();
+//        for (User u : all) {
+//            System.out.println(u);
+//        }
 
     }
 }
